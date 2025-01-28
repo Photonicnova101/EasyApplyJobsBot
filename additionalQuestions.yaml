@@ -1,20 +1,20 @@
 #PRO FEATURE - Auto answer additional questions from the below values.
 inputField:
-  First Name: FirstName
-  Last Name: LastName
-  Phone Country Code: Canada (+1) # See linkedin for your country code, must be exact
-  Phone Number: 1234567890
-  Street address: 123 Fake Street
-  City: Katowice, Śląskie, Poland
-  State: Poland
-  Zip: 41-214
-  Linkedin: https://www.linkedin.com/in/
-  Website: https://www.ongundemirag.com/ # github/website is interchangable here
+  First Name: Sam
+  Last Name: Pautrat
+  Phone Country Code: United States (+1) # See linkedin for your country code, must be exact
+  Phone Number: 6468062290
+  Street address: 6207 84th st
+  City: Middle Village
+  State: NY
+  Zip: 11379
+  Linkedin: https://www.linkedin.com/in/sam-pautrat-a69b521aa/
+  Website: https://sampautrat.netlify.app/ # github/website is interchangable here
   # Questions having these technology keywords inside (whole numbers only) - case insensitive
   Accounting/Auditing: 0
   Administrative: 0
   Advertising: 0
-  Analyst: 0
+  Analyst: 1
   Art/Creative: 0
   Business Development: 1
   Consulting: 0
@@ -22,15 +22,15 @@ inputField:
   Distribution Design: 0
   Education: 0
   Engineering: 3
-  Finance: 0
+  Finance: 1
   General Business: 2
   Health Care Provider: 0
   Human Resources: 0
-  Information Technology: 0
+  Information Technology: 1
   Legal: 0
   Management: 1
   Manufacturing: 0
-  Marketing: 0
+  Marketing: 1
   Public Relations: 0
   Purchasing: 0
   Product Management: 2
@@ -45,8 +45,8 @@ inputField:
   Training: 0
   Writing/Editing: 0
   # default to put for any skill that you did not list
-  Years of experience: 0
-  C++: 0
+  Years of experience: 5
+  C++: 3
   Python: 3
   Javascript: 3
   Node: 3
@@ -61,25 +61,25 @@ inputField:
   Django: 0
   SAP: 0
   ipt: 0
-  MySQL: 0
-  Shopify: 0
+  MySQL: 3
+  Shopify: 1
   Typescript: 3
   JavaScript: 3
   Angular: 0
   Redux.js: 2
   Angular Command Line Interface (CLI): 0
   selenium: 3
-  C#: 0
-  C (Programming Language): 0
+  C#: 1
+  C (Programming Language): 1
   Software Development: 3
   Linux: 2
   Cross-functional team: 0
-  Social media platforms: 0
+  Social media platforms: 1
   Microsoft Azure: 0
-  AWS: 0
+  AWS: 1
   .NET: 0
   # add custom one here
-  universityGpa: 4.0
+  universityGpa: 3.6
   # What is your level of proficiency in a: polski? Required
   english: Native or bilingual # None, Conversational, Professional, Native or bilingual
   polski: Conversational # None, Conversational, Professional, Native or bilingual
@@ -98,7 +98,7 @@ inputField:
   # Have you ever applied at ... before? Required
   Have you ever applied: "No"
   #  Please provide 3 references with their name, phone number, and email address. Required
-  References: A, 045,abc@gmail.com | B,234,abc@gmail.com | C,2134,abc@gmail.com
+  #References: A, 045,abc@gmail.com | B,234,abc@gmail.com | C,2134,abc@gmail.com
   #  How many hours are you available every week? Required
   Hours are you available every week: 40
   #  What is your desired hourly pay rate (in USD)? Required
@@ -115,7 +115,7 @@ inputField:
   # how many years of work experience do you have with internet of things (iot)?
   internet of things (iot): 1
   # how many years of work experience do you have with opencv?
-  opencv: 0
+  opencv: 2
   # how many years of work experience do you have with numpy?
   numpy: 3
   # how many years of work experience do you have with devops?
@@ -156,9 +156,9 @@ inputField:
   # how many years of work experience do you have with golang?
   Golang: 2
   # how many years of work experience do you have with kafka ?
-  kafka: 0
+  kafka: 1
   # how many years of work experience do you have with docker?
-  Docker: 0
+  Docker: 1
   # how many years of work experience do you have with ci/cd ?
   ci/cd: 4
   # quanti anni di esperienza di lavoro hai con supporto tecnico?
@@ -364,7 +364,7 @@ radio:
   High School Diploma: "yes"
   Bachelor's Degree: "yes"
   Associate's Degree: "no"
-  Master's Degree: "yes"
+  Master's Degree: "no"
   Master of Business Administration: "no"
   Doctor of Philosophy: "no"
   Doctor of Medicine: "no"
@@ -394,7 +394,7 @@ radio:
   # Are you currently residing in any state outside of California? Yes = I live outside of California No = I live in California
   outside of California: "yes"
   # Gender (Male - 0 / Female - 1 / Decline to Answer - 2)
-  Gender: "Decline to Answer"
+  Gender: "Male"
   #  Veteran status  ( I identify as one or more listed above - 0 /  I am not a protected veteran - 1 /  I don't wish to answer - 2  ))
   Veteran: "I don't wish to answer "
   #  Disability status  ( Yes, I Have A Disability - 0 /  No, I Don't Have A Disability - 1 /  I don't wish to answer - 2  ))
@@ -431,7 +431,7 @@ radio:
   # agree to receive occasional email updates from qualitest. your consent is voluntary. please view our privacy policy: https://www.qualitestgroup.com/about-us/privacy-policy/ and our terms and conditions: https://www.qualitestgroup.com/about-us/terms-conditions/ you have the right to unsubscribe and withdraw your consent at any time. Options : [yes,no]
   agree to receive occasional email updates: "no"
   # do you have the right to live and work in uk? Options : [yes,no]
-  uk: "yes"
+  uk: "no"
   # are based in greece? Options : [yes,no]
   Greece: "no"
   # do you have at least 3 years of working experience in a similar role? Options : [yes,no]
@@ -659,7 +659,7 @@ dropdown:
   # are you open to a gross salary of 9,500 to 15,000 pln per month? Options : [Select an option,Yes,No]
   gross salary of 9,500 to 15,000 pln per month?: "yes"
   # are you based in either poland, lithuania, latvia or estonia? Options : [Select an option,Yes,No]
-  poland: "yes"
+  poland: "no"
   # have you ever worked with api of any of the following companies - amazon, ebay, tiktok, clover, square? Options : [Select an option,Yes,No]
   api of any of the following companie: "yes"  # this role is based in central manchester and requires 3 days per week in the office. do you live a commutable distance currently?  Options : [Select an option,Yes,No]
   # are you able to work in central manchester 3 days per week? Options : [Select an option,Yes,No]
