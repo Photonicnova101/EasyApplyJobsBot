@@ -5,7 +5,7 @@ browser = ["Chrome"]
 # Enter your Linkedin password and username below. Do not commit this file after entering these credentials.
 # Linkedin credentials
 email = "aidarhans@bxscience.edu"
-password = "Novaboss101!"
+password = "novaboss101"
 
 #PRO FEATURE - Optional! run browser in headless mode, no browser screen will be shown it will work in background.
 headless = False
@@ -22,7 +22,7 @@ location = ["NorthAmerica"]
 # keywords related with your job search
 keywords = ["frontend", "data analyst", "internship", "investment banking", "web security", "fullstack", "react", "typescript","javascript", "vue", "python", "programming", "blockchain"]
 #job experience Level - ex:  ["Internship", "Entry level" , "Associate" , "Mid-Senior level" , "Director" , "Executive"]
-experienceLevels = [ "Entry level", "Internship" ]
+experienceLevels = [ "Entry level", "Internship", "Associate" ]
 #job posted date - ex: ["Any Time", "Past Month" , "Past Week" , "Past 24 hours"] - select only one
 datePosted = ["Past Week"]
 #job type - ex:  ["Full-time", "Part-time" , "Contract" , "Temporary", "Volunteer", "Intership", "Other"]
